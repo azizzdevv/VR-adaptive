@@ -261,6 +261,7 @@ nav a:focus {
   border-left: 0.1px solid #4f4969;
   font-size: 60px;
 }
+
 .btn-main button {
   font-size: clamp(0.5rem, 0.417rem + 0.42vw, 0.75rem);
   font-weight: 700;
@@ -289,6 +290,7 @@ nav a:focus {
   padding-block: 30px;
   display: none;
 }
+
 .next-adaptiv {
   width: 100%;
   display: none;
@@ -311,6 +313,7 @@ nav a:focus {
 .next-adaptiv img {
   max-width: 25px;
 }
+
 .next-adaptiv ion-icon {
   font-size: 35px;
   color: white;
@@ -815,6 +818,12 @@ nav a:focus {
   padding-block: 40px;
 }
 
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
 .footer-content {
   display: flex;
   justify-content: space-between;
@@ -893,6 +902,25 @@ nav a:focus {
     rgba(187, 178, 227, 1) 100%
   );
   color: #343045;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+}
+.footer span {
+  height: 5px;
+  border: 1px solid;
+
+  border-image-source: linear-gradient(
+    270deg,
+    #343045 0%,
+    #c0b7e8 34.9%,
+    #8176af 68.75%,
+    #343045 100%
+  );
+  color: #ffffff;
 }
 
 /*  FOOTER END */
