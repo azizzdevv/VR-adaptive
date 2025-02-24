@@ -98,9 +98,6 @@
     width: 200px;
     height: 40px;
   }
-  .technolog {
-    display: none;
-  }
 }
 @media (max-width: 1132px) {
   .box .cart:nth-child(4) {
@@ -125,8 +122,6 @@
   }
 }
 @media (max-width: 549px) {
-  .container {
-  }
   .box .cart:nth-child(2) {
     display: none;
   }
@@ -250,5 +245,30 @@
   .line-3 {
     width: 100%;
     align-items: center;
+  }
+  .line-end {
+    text-align: center;
+  }
+}
+
+@media (max-width: 845px) {
+  .design-content {
+    justify-content: center;
+  }
+
+  .step:nth-child(1) {
+    display: block;
+  }
+
+  .step:nth-child(2) {
+    display: none;
+  }
+
+  .step:nth-child(3) {
+    display: none;
+  }
+
+  .step:nth-child(4) {
+    display: none;
   }
 }
